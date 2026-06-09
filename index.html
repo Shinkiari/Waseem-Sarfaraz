@@ -1866,62 +1866,10 @@ const PRODUCT_DEFAULTS = {
 };
 
 // ── INITIAL DATA ──
-const SEED_DATA = [
-  {id:1742774400001,invNo:"AAF-001",date:"2026-03-24",desc:"Ice Burg Basket",qty:270,totalWt:2730,tareWt:1.5,neatWt:2325,wastePct:15,waste:348.75,neatAfter:1976.25,rate:90,amount:177862.5,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1743379200002,invNo:"AAF-002",date:"2026-03-31",desc:"Ice Burg Basket",qty:272,totalWt:2737,tareWt:1.5,neatWt:2329,wastePct:15,waste:349.35,neatAfter:1979.65,rate:90,amount:178168.5,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1743552000003,invNo:"AAF-003",date:"2026-04-01",desc:"Ice Burg Basket",qty:230,totalWt:2657,tareWt:1.5,neatWt:2312,wastePct:15,waste:346.8,neatAfter:1965.2,rate:90,amount:176868,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1743638400004,invNo:"AAF-004",date:"2026-04-02",desc:"Ice Burg Basket",qty:356,totalWt:4199,tareWt:1.5,neatWt:3665,wastePct:15,waste:549.75,neatAfter:3115.25,rate:90,amount:280372.5,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1743724800005,invNo:"AAF-005",date:"2026-04-03",desc:"Ice Burg Basket",qty:256,totalWt:3056,tareWt:1.5,neatWt:2672,wastePct:15,waste:400.8,neatAfter:2271.2,rate:90,amount:204408,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1743811200006,invNo:"AAF-006",date:"2026-04-04",desc:"Ice Burg Basket",qty:246,totalWt:2869,tareWt:1.5,neatWt:2500,wastePct:15,waste:375,neatAfter:2125,rate:90,amount:191250,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1743897600007,invNo:"AAF-007",date:"2026-04-05",desc:"Ice Burg Basket",qty:270,totalWt:3343,tareWt:1.5,neatWt:2938,wastePct:15,waste:440.7,neatAfter:2497.3,rate:90,amount:224757,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1743984000008,invNo:"AAF-008",date:"2026-04-06",desc:"Ice Burg Basket",qty:272,totalWt:3254,tareWt:1.5,neatWt:2846,wastePct:15,waste:426.9,neatAfter:2419.1,rate:90,amount:217719,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1744070400009,invNo:"AAF-009",date:"2026-04-07",desc:"Ice Burg Basket",qty:266,totalWt:2500,tareWt:1.5,neatWt:2101,wastePct:15,waste:315.15,neatAfter:1785.85,rate:90,amount:160726.5,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1744156800010,invNo:"AAF-010",date:"2026-04-08",desc:"Ice Burg Basket",qty:266,totalWt:2413,tareWt:1.5,neatWt:2014,wastePct:15,waste:302.1,neatAfter:1711.9,rate:90,amount:154071,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1744243200011,invNo:"AAF-011",date:"2026-04-09",desc:"Ice Burg Basket",qty:356,totalWt:3200,tareWt:1.5,neatWt:2666,wastePct:15,waste:399.9,neatAfter:2266.1,rate:90,amount:203949,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1744675200012,invNo:"AAF-012",date:"2026-04-14",desc:"Ice Burg Basket",qty:268,totalWt:2492,tareWt:1.5,neatWt:2090,wastePct:15,waste:313.5,neatAfter:1776.5,rate:90,amount:159885,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1744848000013,invNo:"AAF-013",date:"2026-04-16",desc:"Ice Burg Basket",qty:328,totalWt:3132,tareWt:1.5,neatWt:2640,wastePct:15,waste:396,neatAfter:2244,rate:90,amount:201960,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1745107200014,invNo:"AAF-014",date:"2026-04-19",desc:"Ice Burg Basket",qty:250,totalWt:2824,tareWt:1.5,neatWt:2449,wastePct:15,waste:367.35,neatAfter:2081.65,rate:90,amount:187348.5,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1745452800015,invNo:"AAF-015",date:"2026-04-22",desc:"Iceburg Carton",qty:144,totalWt:3700,tareWt:2,neatWt:3556,wastePct:15,waste:533.4,neatAfter:3022.6,rate:105,amount:317373,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1745539200016,invNo:"AAF-016",date:"2026-04-23",desc:"Iceburg Carton",qty:173,totalWt:4034,tareWt:2,neatWt:3861,wastePct:15,waste:579.15,neatAfter:3281.85,rate:105,amount:344594.25,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1745625600017,invNo:"AAF-017",date:"2026-04-24",desc:"Iceburg Carton",qty:95,totalWt:2309,tareWt:2,neatWt:2214,wastePct:15,waste:332.1,neatAfter:1881.9,rate:105,amount:197599.5,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1745712000018,invNo:"AAF-018",date:"2026-04-25",desc:"Ice Burg Basket",qty:270,totalWt:3670,tareWt:1.5,neatWt:3265,wastePct:15,waste:489.75,neatAfter:2775.25,rate:90,amount:249772.5,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1745712000019,invNo:"AAF-019",date:"2026-04-25",desc:"Iceburg Carton",qty:104,totalWt:2267,tareWt:2,neatWt:2163,wastePct:15,waste:324.45,neatAfter:1838.55,rate:105,amount:193047.75,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1745798400020,invNo:"AAF-020",date:"2026-04-26",desc:"Ice Burg Basket",qty:264,totalWt:3507,tareWt:1.5,neatWt:3111,wastePct:15,waste:466.65,neatAfter:2644.35,rate:90,amount:237991.5,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1745971200021,invNo:"AAF-021",date:"2026-04-28",desc:"Ice Burg Basket",qty:264,totalWt:3418,tareWt:1.5,neatWt:3022,wastePct:15,waste:453.3,neatAfter:2568.7,rate:90,amount:231183,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1745971200022,invNo:"AAF-022",date:"2026-04-28",desc:"Iceburg Carton",qty:100,totalWt:2131,tareWt:2,neatWt:2031,wastePct:15,waste:304.65,neatAfter:1726.35,rate:105,amount:181266.75,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1746057600023,invNo:"AAF-023",date:"2026-04-29",desc:"Ice Burg Basket",qty:270,totalWt:3445,tareWt:1.5,neatWt:3040,wastePct:15,waste:456,neatAfter:2584,rate:90,amount:232560,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1746144000024,invNo:"AAF-024",date:"2026-04-30",desc:"Iceburg Carton",qty:129,totalWt:2966,tareWt:2,neatWt:2837,wastePct:15,waste:425.55,neatAfter:2411.45,rate:105,amount:253202.25,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1746144000025,invNo:"AAF-025",date:"2026-04-30",desc:"Iceburg Carton",qty:120,totalWt:2484,tareWt:2,neatWt:2364,wastePct:15,waste:354.6,neatAfter:2009.4,rate:105,amount:210987,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1747267200026,invNo:"AAF-026",date:"2026-05-01",desc:"Iceburg Carton",qty:217,totalWt:5511,tareWt:2,neatWt:5294,wastePct:15,waste:794.1,neatAfter:4499.9,rate:105,amount:472489.5,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1747353600027,invNo:"AAF-027",date:"2026-05-02",desc:"Ice Burg Basket",qty:270,totalWt:3781,tareWt:1.5,neatWt:3376,wastePct:15,waste:506.4,neatAfter:2869.6,rate:90,amount:258264,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1747440000028,invNo:"AAF-028",date:"2026-05-03",desc:"Iceburg Carton",qty:205,totalWt:5040,tareWt:2,neatWt:4835,wastePct:15,waste:725.25,neatAfter:4109.75,rate:105,amount:431523.75,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1747699200029,invNo:"AAF-029",date:"2026-05-06",desc:"Iceburg Carton",qty:100,totalWt:2230,tareWt:2,neatWt:2130,wastePct:15,waste:319.5,neatAfter:1810.5,rate:105,amount:190102.5,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1747785600030,invNo:"AAF-030",date:"2026-05-07",desc:"Ice Burg Basket",qty:270,totalWt:2851,tareWt:1.5,neatWt:2446,wastePct:15,waste:366.9,neatAfter:2079.1,rate:90,amount:187119,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1747785600031,invNo:"AAF-031",date:"2026-05-07",desc:"Iceburg Carton",qty:55,totalWt:1235,tareWt:2,neatWt:1180,wastePct:15,waste:177,neatAfter:1003,rate:105,amount:105315,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1747872000032,invNo:"AAF-032",date:"2026-05-08",desc:"Iceburg Carton",qty:101,totalWt:2120,tareWt:2,neatWt:2019,wastePct:15,waste:302.85,neatAfter:1716.15,rate:105,amount:180195.75,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1747958400033,invNo:"AAF-033",date:"2026-05-09",desc:"Ice Burg Basket",qty:203,totalWt:2424,tareWt:1.5,neatWt:2119.5,wastePct:15,waste:317.93,neatAfter:1801.58,rate:90,amount:162142.2,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1748044800034,invNo:"AAF-034",date:"2026-05-10",desc:"Ice Burg Basket",qty:270,totalWt:2580,tareWt:1.5,neatWt:2175,wastePct:15,waste:326.25,neatAfter:1848.75,rate:90,amount:166387.5,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1748131200035,invNo:"AAF-035",date:"2026-05-11",desc:"Ice Burg Basket",qty:270,totalWt:3004,tareWt:1.5,neatWt:2599,wastePct:15,waste:389.85,neatAfter:2209.15,rate:90,amount:198823.5,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1748217600036,invNo:"AAF-036",date:"2026-05-12",desc:"Ice Burg Basket",qty:246,totalWt:3034,tareWt:1.5,neatWt:2665,wastePct:15,waste:399.75,neatAfter:2265.25,rate:90,amount:203872.5,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1748304000037,invNo:"AAF-037",date:"2026-05-13",desc:"Ice Burg Basket",qty:264,totalWt:2608,tareWt:1.5,neatWt:2212,wastePct:15,waste:331.8,neatAfter:1880.2,rate:90,amount:169218,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1748390400038,invNo:"AAF-038",date:"2026-05-14",desc:"Ice Burg Basket",qty:234,totalWt:2742,tareWt:1.5,neatWt:2391,wastePct:15,waste:358.65,neatAfter:2032.35,rate:90,amount:182911.5,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1748476800039,invNo:"AAF-039",date:"2026-05-16",desc:"Ice Burg Basket",qty:270,totalWt:3707,tareWt:1.5,neatWt:3302,wastePct:15,waste:495.3,neatAfter:2806.7,rate:90,amount:252603,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1748563200040,invNo:"AAF-040",date:"2026-05-17",desc:"Ice Burg Basket",qty:266,totalWt:3679,tareWt:1.5,neatWt:3280,wastePct:15,waste:492,neatAfter:2788,rate:90,amount:250920,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1748649600041,invNo:"AAF-041",date:"2026-05-18",desc:"Ice Burg Basket",qty:270,totalWt:3477,tareWt:1.5,neatWt:3072,wastePct:15,waste:460.8,neatAfter:2611.2,rate:90,amount:235008,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1748736000042,invNo:"AAF-042",date:"2026-05-19",desc:"Ice Burg Basket",qty:258,totalWt:3021,tareWt:1.5,neatWt:2634,wastePct:15,waste:395.1,neatAfter:2238.9,rate:90,amount:201501,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1748822400043,invNo:"AAF-043",date:"2026-05-20",desc:"Ice Burg Basket",qty:270,totalWt:3139,tareWt:1.5,neatWt:2734,wastePct:15,waste:410.1,neatAfter:2323.9,rate:90,amount:209151,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1748908800044,invNo:"AAF-044",date:"2026-05-21",desc:"Ice Burg Basket",qty:345,totalWt:4592,tareWt:1.5,neatWt:4074.5,wastePct:15,waste:611.17,neatAfter:3463.32,rate:90,amount:311698.8,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1748908800045,invNo:"AAF-045",date:"2026-05-21",desc:"Ice Burg Basket",qty:258,totalWt:3114,tareWt:1.5,neatWt:2727,wastePct:15,waste:409.05,neatAfter:2317.95,rate:90,amount:208615.5,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1748995200046,invNo:"AAF-046",date:"2026-05-22",desc:"Ice Burg Basket",qty:270,totalWt:2747,tareWt:1.5,neatWt:2342,wastePct:15,waste:351.3,neatAfter:1990.7,rate:90,amount:179163,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1749081600047,invNo:"AAF-047",date:"2026-05-23",desc:"Ice Burg Basket",qty:250,totalWt:2630,tareWt:1.5,neatWt:2255,wastePct:15,waste:338.25,neatAfter:1916.75,rate:90,amount:172507.5,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1749081600048,invNo:"AAF-048",date:"2026-05-23",desc:"Iceburg Carton",qty:66,totalWt:1509,tareWt:2,neatWt:1443,wastePct:15,waste:216.45,neatAfter:1226.55,rate:105,amount:128787.75,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1749168000049,invNo:"AAF-049",date:"2026-05-24",desc:"Ice Burg Basket",qty:270,totalWt:2720,tareWt:1.5,neatWt:2315,wastePct:15,waste:347.25,neatAfter:1967.75,rate:90,amount:177097.5,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1749168000050,invNo:"AAF-050",date:"2026-05-24",desc:"Iceburg Carton",qty:40,totalWt:873,tareWt:2,neatWt:833,wastePct:15,waste:124.95,neatAfter:708.05,rate:105,amount:74345.25,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1749254400051,invNo:"AAF-051",date:"2026-05-25",desc:"Ice Burg Basket",qty:241,totalWt:2297,tareWt:1.5,neatWt:1935.5,wastePct:15,waste:290.32,neatAfter:1645.17,rate:90,amount:148065.3,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1749254400052,invNo:"AAF-052",date:"2026-05-25",desc:"Iceburg Carton",qty:63,totalWt:1330,tareWt:2,neatWt:1267,wastePct:15,waste:190.05,neatAfter:1076.95,rate:105,amount:113079.75,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1749686400053,invNo:"AAF-053",date:"2026-05-30",desc:"Iceburg Carton",qty:20,totalWt:392,tareWt:2,neatWt:372,wastePct:15,waste:55.8,neatAfter:316.2,rate:105,amount:33201,person:"Sarfaraz Abbasi",status:"Paid",notes:""},
-  {id:1749772800054,invNo:"AAF-054",date:"2026-05-31",desc:"Ice Burg Basket",qty:270,totalWt:2620,tareWt:1.5,neatWt:2215,wastePct:15,waste:332.25,neatAfter:1882.75,rate:90,amount:169447.5,person:"Sarfaraz Abbasi",status:"Paid",notes:""}
+  // SEED_DATA is intentionally empty — all real data comes from Firebase cloud.
+  // Do NOT add hardcoded invoices here to avoid duplicates after sync.
 ];
+
 
 // ════════════════════════════════════════════════════════
 //  STORAGE — IndexedDB (primary) + localStorage (fallback)
@@ -2103,18 +2051,12 @@ async function loadData() {
   // 2. Load invoices from IndexedDB
   invoices = await dbGetAll('invoices');
 
-  // 3. Force reseed if seed version is old or empty
+  // 3. Seeding is permanently disabled — all data comes from Firebase cloud sync.
+  //    We only set seedVersion to 99 so this check never triggers again.
   const seedVer = await getSetting('seedVersion', 0);
-  const wasReset = await getSetting('wasReset', false);
-  if (seedVer < 2 && !wasReset) {
-    invoices = [...SEED_DATA];
-    await dbClear('invoices');
-    await dbBulkPut('invoices', invoices);
-    await setSetting('seedVersion', 2);
-  } else if (!invoices.length && !wasReset) {
-    invoices = [...SEED_DATA];
-    await dbBulkPut('invoices', invoices);
-    await setSetting('seedVersion', 2);
+  if (seedVer < 99) {
+    await setSetting('seedVersion', 99);
+    await setSetting('wasReset', false);
   }
 
   // 4. Load trash + expire old items
